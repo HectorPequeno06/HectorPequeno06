@@ -1,36 +1,8 @@
---------------------------------------------------------------------------------
--- Company: 
--- Engineer:
---
--- Create Date:   10:28:10 03/29/2020
--- Design Name:   
--- Module Name:   C:/PROJECTS/XILINX/Multiplicador4BitsC2/Multiplicador4bc2TB.vhd
--- Project Name:  Multiplicador4BitsC2
--- Target Device:  
--- Tool versions:  
--- Description:   
--- 
--- VHDL Test Bench Created by ISE for module: multiplicador4bc2
--- 
--- Dependencies:
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
---
--- Notes: 
--- This testbench has been automatically generated using types std_logic and
--- std_logic_vector for the ports of the unit under test.  Xilinx recommends
--- that these types always be used for the top-level I/O of a design in order
--- to guarantee that the testbench will bind correctly to the post-implementation 
--- simulation model.
---------------------------------------------------------------------------------
+
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
  
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---USE ieee.numeric_std.ALL;
+
  
 ENTITY Multiplicador4bc2TB IS
 END Multiplicador4bc2TB;
@@ -54,9 +26,7 @@ ARCHITECTURE behavior OF Multiplicador4bc2TB IS
 
  	--Outputs
    signal res : std_logic_vector(7 downto 0);
-   -- No clocks detected in port list. Replace <clock> below with 
-   -- appropriate port name 
- 
+  
    
  
 BEGIN

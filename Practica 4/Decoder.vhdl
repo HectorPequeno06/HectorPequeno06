@@ -14,7 +14,9 @@ entity Decoder is
            SD : out  bit;
            SE : out  bit;
            SF : out  bit;
-           SG : out  bit);
+           SG : out  bit;
+			  DecOut: out bit
+			  );
 end Decoder;
 
 architecture Behavioral of Decoder is
@@ -31,6 +33,7 @@ begin
 				SE<=((C AND (NOT D))OR ((NOT B) AND (NOT D)));
 				SF<= (((NOT D) AND (NOT C))OR(B AND (NOT D))OR (B AND (NOT C))OR A);
 				SG<= ( ( (NOT D)AND C)OR(B AND (NOT C)) OR A OR ((NOT B) AND C ) );
+				decout<=dec;
 				ELSIF EN='0' then
 				SA<='0';
 				SB<='0';
@@ -39,6 +42,7 @@ begin
 				SE<='0';
 				SF<='0';
 				SG<='0';
+				decout<='0';
 			END IF;
 	end process;
 end Behavioral;

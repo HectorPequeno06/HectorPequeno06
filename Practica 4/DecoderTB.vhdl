@@ -26,7 +26,8 @@ ARCHITECTURE behavior OF DECODERTB IS
          SD : OUT  bit;
          SE : OUT  bit;
          SF : OUT  bit;
-         SG : OUT  bit
+         SG : OUT  bit;
+			Decout: OUT BIT
         );
     END COMPONENT;
     
@@ -47,6 +48,7 @@ ARCHITECTURE behavior OF DECODERTB IS
    signal SE : bit;
    signal SF : bit;
    signal SG : bit;
+	SIGNAL DECOUT: BIT;
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
@@ -67,7 +69,8 @@ BEGIN
           SD => SD,
           SE => SE,
           SF => SF,
-          SG => SG
+          SG => SG,
+			 DECOUT=> DECOUT
         );
 
   
