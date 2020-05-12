@@ -1,0 +1,7 @@
+v 4
+file . "Lcd.vhdl" "f7cd13fe4469790db2f62cd67449640f9d4863c3" "20200512063552.449":
+  entity controller at 1( 0) + 0 on 137;
+  architecture behavioral of controller at 20( 468) + 0 on 138;
+file . "LCDCONt.vhdl" "15a2c2cae79d7de5a0afd73b62e80e30bf26de31" "20200512063553.802":
+  entity lcdcont at 1( 0) + 0 on 139;
+  architecture behavior of lcdcont at 11( 177) + 0 on 140;
