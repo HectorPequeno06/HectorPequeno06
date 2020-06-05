@@ -1,0 +1,13 @@
+v 4
+file . "Subtractor.vhdl" "0a5e0ce56f0e6a3e91eb4d29c98a86f138b16932" "20200605060424.711":
+  entity subtractor at 1( 0) + 0 on 21;
+  architecture behavioral of subtractor at 12( 162) + 0 on 22;
+file . "SubtractorTb.vhdl" "66d75672d67376d6b5e52c550859a3c729732a50" "20200605050119.211":
+  entity subtractortb at 1( 0) + 0 on 13;
+  architecture behavioral of subtractortb at 7( 86) + 0 on 14;
+file . "Subtractor4bits.vhdl" "d198e8d81cc91cb86d2e82b2e60543f4c556b39d" "20200605060430.842":
+  entity subtractor4bits at 1( 0) + 0 on 23;
+  architecture behavioral of subtractor4bits at 15( 318) + 0 on 24;
+file . "Subtractor4BitsTb.vhdl" "05f2ebd78297cbea659b1335607af4e7539fc2c4" "20200605061026.824":
+  entity subtractor4bitstb at 1( 0) + 0 on 31;
+  architecture behavioral of subtractor4bitstb at 7( 95) + 0 on 32;
