@@ -1,0 +1,13 @@
+v 4
+file . "shiftregister8bitsTB.vhdl" "b9c005d47167a2de85c03889d080ae999c2938c8" "20200607040107.217":
+  entity shiftregister8bitstb at 1( 0) + 0 on 49;
+  architecture behavioral of shiftregister8bitstb at 7( 98) + 0 on 50;
+file . "shiftregister4bitsTB.vhdl" "26a7888d76e77186c5b1b250f0a4b238adac3f73" "20200606234541.883":
+  entity shiftregister4bitstb at 1( 0) + 0 on 37;
+  architecture behavioral of shiftregister4bitstb at 7( 94) + 0 on 38;
+file . "shiftregister4bits.vhdl" "a454e209486310b53e3f8a9bdd9fc1484d20ab8e" "20200606234525.233":
+  entity shiftregister4bits at 1( 0) + 0 on 35;
+  architecture behavioral of shiftregister4bits at 17( 346) + 0 on 36;
+file . "shiftregister8bits.vhdl" "49079863f8c35647cc196129c4071fbdb402e454" "20200607040103.696":
+  entity shiftregister8bits at 1( 0) + 0 on 47;
+  architecture behavioral of shiftregister8bits at 12( 243) + 0 on 48;
