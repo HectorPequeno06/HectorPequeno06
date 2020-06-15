@@ -113,7 +113,7 @@ begin
             wait for Clock200kHzPeriod*10;
         end loop;
 
-        -- report "FIN DE LA SIMULACION" severity failure;
+        report "FIN DE LA SIMULACION" severity failure;
     end process;
 
 end test;
