@@ -1,4 +1,7 @@
 v 4
+file . "IntegracionTB.vhdl" "366dc0974028c73eb520047bd3f788cccfd20835" "20200616020557.009":
+  entity integraciontb at 1( 0) + 0 on 47;
+  architecture behavioral of integraciontb at 7( 94) + 0 on 48;
 file . "Register4bits.vhdl" "ab684a4c93f350b19a74f50fb51374d432c5b632" "20200616003155.705":
   entity register4bits at 1( 0) + 0 on 27;
   architecture behavioral of register4bits at 14( 288) + 0 on 28;
@@ -17,3 +20,9 @@ file . "comparator.vhdl" "79bf33736ca9d31768f631038ee3987a9c4d914c" "20200616003
 file . "MUX.vhdl" "9c63ad8cf8d94e170411fb48b15bc7229d183894" "20200616003212.968":
   entity mux at 1( 0) + 0 on 29;
   architecture behavioral of mux at 12( 222) + 0 on 30;
+file . "Controller.vhdl" "3121efdf2267c41835441717de53b16f730103e0" "20200616011851.030":
+  entity controller at 1( 0) + 0 on 35;
+  architecture arch of controller at 20( 449) + 0 on 36;
+file . "Integracion.vhdl" "d1acea9067ae8b88bd3f5b52e7e6643f4488c1c4" "20200616020555.236":
+  entity integracion at 1( 0) + 0 on 45;
+  architecture behavioral of integracion at 14( 317) + 0 on 46;
