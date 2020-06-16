@@ -1,0 +1,19 @@
+v 4
+file . "Register4bits.vhdl" "ab684a4c93f350b19a74f50fb51374d432c5b632" "20200616003155.705":
+  entity register4bits at 1( 0) + 0 on 27;
+  architecture behavioral of register4bits at 14( 288) + 0 on 28;
+file . "Subtractor4bits.vhdl" "d198e8d81cc91cb86d2e82b2e60543f4c556b39d" "20200616003016.274":
+  entity subtractor4bits at 1( 0) + 0 on 23;
+  architecture behavioral of subtractor4bits at 15( 318) + 0 on 24;
+file . "Datapath.vhdl" "744abfb1f0e9cd3493670668d91e8ddff51a8079" "20200616003233.128":
+  entity datapath at 1( 0) + 0 on 31;
+  architecture behavioral of datapath at 23( 548) + 0 on 32;
+file . "subtractor.vhdl" "0a5e0ce56f0e6a3e91eb4d29c98a86f138b16932" "20200616002958.379":
+  entity subtractor at 1( 0) + 0 on 21;
+  architecture behavioral of subtractor at 12( 162) + 0 on 22;
+file . "comparator.vhdl" "79bf33736ca9d31768f631038ee3987a9c4d914c" "20200616003039.812":
+  entity comparator at 1( 0) + 0 on 25;
+  architecture behavioral of comparator at 12( 255) + 0 on 26;
+file . "MUX.vhdl" "9c63ad8cf8d94e170411fb48b15bc7229d183894" "20200616003212.968":
+  entity mux at 1( 0) + 0 on 29;
+  architecture behavioral of mux at 12( 222) + 0 on 30;
