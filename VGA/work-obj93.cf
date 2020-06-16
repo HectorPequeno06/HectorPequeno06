@@ -1,0 +1,10 @@
+v 4
+file . "VGAactualizacionTB.vhdl" "0ace8465cbd41f8f8a7d18414ebcd97f0543c325" "20200616182128.330":
+  entity vgaactualizaciontb at 1( 0) + 0 on 15;
+  architecture behavioral of vgaactualizaciontb at 19( 621) + 0 on 16;
+file . "VGAclase.vhdl" "b53b11500f85f522b0738ac7901b93d42733da8a" "20200616164914.018":
+  entity vgaclase at 1( 0) + 0 on 11;
+  architecture behavioral of vgaclase at 16( 333) + 0 on 12;
+file . "VGAactualizacion.vhdl" "c41e54b199840a009ec1ce02af72f25f7d47dd4e" "20200616175742.103":
+  entity vgaactualizacion at 1( 0) + 0 on 13;
+  architecture behavioral of vgaactualizacion at 32( 840) + 0 on 14;
